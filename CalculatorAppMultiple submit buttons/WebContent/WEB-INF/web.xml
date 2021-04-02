@@ -1,0 +1,15 @@
+<web-app>
+  <display-name>CalculatorAppMultiple submit buttons</display-name>
+  <servlet>
+  <servlet-name>calc</servlet-name>
+  <servlet-class>com.sr.servlet.CalculatorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>calc</servlet-name>
+  <url-pattern>/calcurl</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>calculator.html</welcome-file>
+  </welcome-file-list>
+</web-app>
