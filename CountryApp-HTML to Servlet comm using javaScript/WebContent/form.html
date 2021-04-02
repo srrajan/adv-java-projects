@@ -1,0 +1,22 @@
+<h2 style="color:red; text-align:center">HTML To Servlet Communication Using JavaScript</h2>
+<form name="frm" action="countryurl" method="POST">
+<table >
+<tr>
+<td>Select Country::</td>
+<td><select name="country" onchange="frm.submit()">
+<option value="" selected>--select a value--</option>
+<option value="0">India</option>
+<option value="1">Nepal</option>
+<option value="2">Bangladesh</option>
+<option  value="3">SriLanka</option>
+<option value="4">Bhutan</option>
+</td>
+</select>
+</tr>
+</table>
+</form>
+<script language="JavaScript">
+   function send(){
+     frm.submit();
+      }
+      </script> 
